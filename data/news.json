@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T14:16:38+08:00",
+  "updated": "2026-06-17T14:37:16+08:00",
   "categories": {
     "热点": [
       {
@@ -43,13 +43,6 @@
         "url": "https://www.npr.org/2026/06/16/nx-s1-5859419/microbiome-oral-gut-romantic-partner",
         "time": "Tue, 16 Jun 2026 12:05:44",
         "summary": "A large study finds you may share about a quarter of your oral and gut microbes with the people you live with. Should you worry? We asked the experts."
-      },
-      {
-        "title": "The World Cup reminds us that the way to a visitor's heart ... is through their stomach",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/g-s1-128352/the-world-cup-wawa-bucees-waffle-house",
-        "time": "Tue, 16 Jun 2026 11:59:00",
-        "summary": "The action inside the stadiums isn't the only thing capturing the attention of international visitors. Turns out, they're discovering the delights of Buc-ee's, Waffle House, Wawa and free soda refills."
       },
       {
         "title": "Satellite lofted for first Arab country",
@@ -369,6 +362,13 @@
     ],
     "财经": [],
     "科技": [
+      {
+        "title": "UN chief visits Haiti, where a new 'gang-suppression force' will be deployed",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/g-s1-128536/un-chief-visits-haiti",
+        "time": "Wed, 17 Jun 2026 02:15:36",
+        "summary": "U.N. Secretary-General António Guterres's visit to Port-au-Prince comes as gang violence persists. According to U.N. data, 2,300 people have been killed in Haiti this year, with another 100 kidnapped."
+      },
       {
         "title": "Rain along Gulf Coast could become the first named storm of Atlantic hurricane season",
         "source": "NPR",
