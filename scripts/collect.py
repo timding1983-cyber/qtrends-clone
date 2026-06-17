@@ -8,10 +8,16 @@ import ssl
 DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "news.json")
 
 FEEDS = [
-    {"name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "category": ""},
-    {"name": "China Daily", "url": "https://www.chinadaily.com.cn/rss/world_rss.xml", "category": ""},
-    {"name": "CGTN", "url": "https://www.cgtn.com/subscribe/rss/section/world.xml", "category": ""},
-    {"name": "China Daily Biz", "url": "https://www.chinadaily.com.cn/rss/business_rss.xml", "category": "财经"},
+    {"name": "联合早报", "url": "https://www.zaobao.com.sg/realtime/china.rss", "category": ""},
+    {"name": "联合早报", "url": "https://www.zaobao.com.sg/realtime/world.rss", "category": ""},
+    {"name": "新华网", "url": "https://plink.anyfeeder.com/newscn/whxw", "category": ""},
+    {"name": "澎湃新闻", "url": "https://plink.anyfeeder.com/thepaper", "category": ""},
+    {"name": "界面新闻", "url": "https://plink.anyfeeder.com/jiemian/news", "category": ""},
+    {"name": "人民网", "url": "https://plink.anyfeeder.com/people/politics", "category": ""},
+    {"name": "人民网", "url": "https://plink.anyfeeder.com/people/world", "category": ""},
+    {"name": "联合早报", "url": "https://www.zaobao.com.sg/realtime/finance.rss", "category": "财经"},
+    {"name": "界面金融", "url": "https://plink.anyfeeder.com/jiemian/finance", "category": "财经"},
+    {"name": "Solidot", "url": "https://www.solidot.org/index.rss", "category": "科技"},
 ]
 
 def fetch_rss(url, timeout=15):
