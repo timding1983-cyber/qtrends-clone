@@ -1,20 +1,16 @@
 #!/usr/bin/env python3.14
-"""Qtrends-clone: RSS data collector, runs hourly via cron."""
 import json, re, os, xml.etree.ElementTree as ET
 from datetime import datetime
 from urllib.request import urlopen, Request
 from html import unescape
-import http.client
 import ssl
 
 DATA_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "news.json")
 
-# Feeds accessible from China without VPN
 FEEDS = [
-    {"name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "category": "热点"},
-    {"name": "China Daily", "url": "https://www.chinadaily.com.cn/rss/world_rss.xml", "category": "热点"},
-    {"name": "CGTN", "url": "https://www.cgtn.com/subscribe/rss/section/world.xml", "category": "热点"},
-    {"name": "NPR Business", "url": "https://feeds.npr.org/1001/rss.xml", "category": "财经"},
+    {"name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "category": ""},
+    {"name": "China Daily", "url": "https://www.chinadaily.com.cn/rss/world_rss.xml", "category": ""},
+    {"name": "CGTN", "url": "https://www.cgtn.com/subscribe/rss/section/world.xml", "category": ""},
     {"name": "China Daily Biz", "url": "https://www.chinadaily.com.cn/rss/business_rss.xml", "category": "财经"},
 ]
 
@@ -26,10 +22,10 @@ def fetch_rss(url, timeout=15):
         req = Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
         resp = urlopen(req, timeout=timeout, context=ctx)
         return resp.read().decode("utf-8", errors="ignore")
-    except Exception as e:
+    except:
         return None
 
-def parse_rss(xml_text, source_name, category):
+def parse_rss(xml_text, source_name):
     articles = []
     try:
         root = ET.fromstring(xml_text)
@@ -38,44 +34,68 @@ def parse_rss(xml_text, source_name, category):
             link = item.findtext("link", "")
             pub_date = item.findtext("pubDate", "")
             desc = item.findtext("description", "")
-            if not title:
-                continue
+            if not title: continue
             title = unescape(re.sub(r"<[^>]+>", "", title)).strip()
             if desc:
                 desc = unescape(re.sub(r"<[^>]+>", "", desc)).strip()[:300]
             articles.append({
-                "title": title,
-                "source": source_name,
-                "url": link,
-                "time": pub_date[:25] if pub_date else "",
-                "summary": desc if desc else "",
+                "title": title, "source": source_name, "url": link,
+                "time": pub_date[:25] if pub_date else "", "summary": desc if desc else ""
             })
     except:
         pass
     return articles
 
-def categorize_article(title, summary):
-    kw_titles = {
-        "科技": ["AI", "苹果", "Google", "微软", "芯片", "人工智能", "科技", "华为", "小米", "特斯拉", "数据", "软件", "互联网", "iPhone", "Android", "科技", "Robot", "机器人", "量子", "SpaceX"],
-        "财经": ["股市", "A股", "外汇", "美元", "人民币", "比特币", "加密", "期货", "债券", "ETF", "通胀", "GDP", "央行", "利率", "股", "经济", "金融", "市场", "投资", "基金", "保险", "银行"],
-        "体育": ["世界杯", "足球", "NBA", "C罗", "梅西", "姆巴佩", "奥运", "冠军", "联赛", "FIFA", "体育", "UFC", "网球", "篮球", "游泳", "冬奥"],
-    }
+def classify(title, summary):
+    """Classify article into one of 8 categories."""
     text = (title + " " + summary).lower()
-    scores = {}
-    for cat, keywords in kw_titles.items():
-        scores[cat] = sum(1 for kw in keywords if kw.lower() in text)
-    if max(scores.values()) > 0:
-        return max(scores, key=scores.get)
-    return "热点"
+
+    # Category keyword maps - ordered by specificity
+    rules = [
+        ("国际", ["china", "us", "uk", "russia", "ukraine", "nato", "united states",
+                  "foreign", "diplomat", "sanction", "border", "treaty", "alliance",
+                  "g7", "nuclear", "military", "war", "conflict", "army", "troop",
+                  "weapon", "missile", "navy", "marine", "attack", "strike"]),
+        ("政治", ["president", "congress", "senate", "vote", "election", "campaign",
+                 "parliament", "minister", "governor", "mayor", "policy", "lawmaker",
+                 "republican", "democrat", "party", "legislat", "court", "judge"]),
+        ("财经", ["stock", "market", "economy", "trade", "tariff", "bank", "rate",
+                 "inflation", "gdp", "dollar", "yuan", "oil", "price", "bond",
+                 "investor", "fund", "profit", "revenue", "debt", "crypto",
+                 "business", "company", "corp", "merger", "acquisition"]),
+        ("科技", ["ai", "artificial intelligence", "robot", "chip", "quantum",
+                 "software", "app", "digital", "cyber", "data", "tech",
+                 "iphone", "google", "microsoft", "apple", "nvidia", "intel",
+                 "space", "nasa", "launch", "satellite", "mars", "moon"]),
+        ("气候", ["climate", "weather", "storm", "flood", "drought", "earthquake",
+                 "hurricane", "typhoon", "tornado", "wildfire", "emission",
+                 "carbon", "solar", "wind", "renewable", "energy", "pollution",
+                 "environment", "green", "warming"]),
+        ("健康", ["health", "disease", "virus", "covid", "hospital", "doctor",
+                 "patient", "drug", "vaccine", "medical", "cancer", "ebola",
+                 "pandemic", "treatment"]),
+        ("体育", ["sport", "game", "match", "champion", "olympic", "world cup",
+                 "fifa", "nba", "soccer", "football", "tennis", "player",
+                 "athlete", "medal", "coach", "team", "goal", "score"]),
+        ("社会", ["protest", "crime", "police", "shooting", "attack", "refugee",
+                 "immigrant", "migrant", "abortion", "rights", "freedom",
+                 "education", "school", "university", "poverty", "hunger"]),
+    ]
+
+    for cat, keywords in rules:
+        for kw in keywords:
+            if kw in text:
+                return cat
+
+    return "热点"  # General news if nothing specific
 
 def collect():
     all_articles = []
     for feed in FEEDS:
         xml = fetch_rss(feed["url"])
         if xml:
-            articles = parse_rss(xml, feed["name"], feed["category"])
-            all_articles.extend(articles)
-    
+            all_articles.extend(parse_rss(xml, feed["name"]))
+
     # Deduplicate
     seen = set()
     unique = []
@@ -84,24 +104,37 @@ def collect():
         if key not in seen:
             seen.add(key)
             unique.append(a)
-    
-    # Auto-categorize
-    categorized = {"热点": [], "财经": [], "科技": [], "体育": []}
+
+    # Classify each article
+    categories = {
+        "热点": [], "国际": [], "政治": [], "财经": [], "科技": [],
+        "气候": [], "健康": [], "体育": [], "社会": []
+    }
     for a in unique:
-        cat = categorize_article(a["title"], a.get("summary", ""))
-        categorized.setdefault(cat, []).append(a)
-    
+        cat = classify(a["title"], a.get("summary", ""))
+        categories.setdefault(cat, []).append(a)
+
+    # Sort categories by number of items, put 热点 and 科技 first
+    order = ["热点", "国际", "政治", "财经", "科技", "气候", "健康", "体育", "社会"]
+    sorted_cats = {}
+    for cat in order:
+        if cat in categories and categories[cat]:
+            sorted_cats[cat] = categories[cat]
+    # Any remaining
+    for cat in sorted(categories.keys()):
+        if cat not in sorted_cats and categories[cat]:
+            sorted_cats[cat] = categories[cat]
+
     output = {
         "updated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00"),
-        "categories": categorized,
+        "categories": sorted_cats,
         "total": len(unique),
     }
-    
+
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    
-    print(f"Collected {len(unique)} articles")
+    print(f"Collected {len(unique)} articles into {len(sorted_cats)} categories")
 
 if __name__ == "__main__":
     collect()

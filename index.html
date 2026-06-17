@@ -3,119 +3,267 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>全球快视 · 国际热点聚合</title>
+<title>全球快视 · Qtrends</title>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f5f5f7; color: #1d1d1f; }
-  .header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: white; padding: 24px 16px; text-align: center; }
-  .header h1 { font-size: 24px; font-weight: 700; letter-spacing: 2px; }
-  .header p { font-size: 13px; opacity: 0.7; margin-top: 6px; }
-  .header .updated { font-size: 11px; opacity: 0.5; margin-top: 4px; }
-  .nav { display: flex; background: white; border-bottom: 1px solid #e5e5e7; position: sticky; top: 0; z-index: 100; }
-  .nav a { flex: 1; text-align: center; padding: 12px 8px; text-decoration: none; color: #6e6e73; font-size: 14px; font-weight: 500; border-bottom: 2px solid transparent; transition: all 0.2s; }
-  .nav a.active { color: #0f3460; border-bottom-color: #0f3460; }
-  .nav a .count { font-size: 11px; opacity: 0.6; margin-left: 4px; }
-  .content { max-width: 800px; margin: 0 auto; padding: 16px; }
-  .section { display: none; }
-  .section.active { display: block; }
-  .article { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); transition: transform 0.15s; }
-  .article:hover { transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-  .article h3 { font-size: 16px; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
-  .article h3 a { color: #1d1d1f; text-decoration: none; }
-  .article h3 a:hover { color: #0f3460; }
-  .article .meta { font-size: 12px; color: #86868b; display: flex; gap: 12px; align-items: center; }
-  .article .meta .source { background: #e8e8ed; padding: 2px 8px; border-radius: 4px; font-size: 11px; }
-  .article .summary { font-size: 13px; color: #6e6e73; margin-top: 8px; line-height: 1.5; }
-  .loading { text-align: center; padding: 60px; color: #86868b; }
-  .loading .spinner { width: 32px; height: 32px; border: 3px solid #e5e5e7; border-top-color: #0f3460; border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .footer { text-align: center; padding: 24px; color: #86868b; font-size: 12px; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif;
+    background:#08080e;color:#e0e0e8;overflow-x:hidden
+  }
+
+  #stars{
+    position:fixed;inset:0;z-index:0;overflow:hidden;
+    background:radial-gradient(ellipse 70% 50% at 30% 20%,rgba(80,30,180,.06) 0,transparent 70%),
+               radial-gradient(ellipse 50% 40% at 70% 80%,rgba(0,100,220,.04) 0,transparent 70%)
+  }
+  .star{
+    position:absolute;width:2px;height:2px;
+    background:#fff;border-radius:50%;
+    animation:twinkle var(--d,3s) ease-in-out infinite
+  }
+  @keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.7}}
+
+  .header{
+    position:relative;z-index:10;
+    padding:40px 20px 28px;text-align:center;
+    background:linear-gradient(180deg,#0d0d1a 0,rgba(13,13,26,.6) 70%,transparent);
+    border-bottom:1px solid rgba(255,255,255,.04)
+  }
+  .header h1{
+    font-size:30px;font-weight:700;letter-spacing:4px;
+    background:linear-gradient(135deg,#c4b5fd,#818cf8,#c4b5fd);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    background-size:200% 200%;animation:gradientMove 4s ease infinite
+  }
+  @keyframes gradientMove{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+  .header .sub{font-size:13px;color:rgba(255,255,255,.35);margin-top:6px}
+  .header .updated{font-size:11px;color:rgba(255,255,255,.2);margin-top:4px}
+
+  .media-bar{
+    position:relative;z-index:10;
+    background:rgba(255,255,255,.015);
+    border-bottom:1px solid rgba(255,255,255,.04);
+    padding:16px 0;overflow:hidden
+  }
+  .media-track{
+    display:flex;gap:14px;width:max-content;
+    animation:scrollTrack 40s linear infinite
+  }
+  .media-bar:hover .media-track{animation-play-state:paused}
+  @keyframes scrollTrack{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+  .media-card{
+    flex-shrink:0;width:220px;
+    background:linear-gradient(145deg,rgba(255,255,255,.04),rgba(255,255,255,.01));
+    border-radius:14px;overflow:hidden;
+    border:1px solid rgba(255,255,255,.06);
+    transition:transform .35s cubic-bezier(.4,0,.2,1),box-shadow .35s;
+    cursor:pointer
+  }
+  .media-card:hover{
+    transform:translateY(-6px) scale(1.02);
+    box-shadow:0 12px 40px rgba(80,30,180,.15);
+    border-color:rgba(120,80,220,.25)
+  }
+  .media-card .preview{
+    height:110px;display:flex;align-items:center;justify-content:center;
+    position:relative;overflow:hidden
+  }
+  .media-card .preview::after{
+    content:'';position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.4))
+  }
+  .media-card .preview .play-btn{
+    width:40px;height:40px;
+    background:rgba(120,80,220,.65);backdrop-filter:blur(8px);
+    border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:14px;color:#fff;z-index:1;
+    transition:transform .25s,background .25s;
+    box-shadow:0 4px 20px rgba(80,30,180,.3)
+  }
+  .media-card:hover .play-btn{transform:scale(1.15);background:rgba(120,80,220,.9)}
+  .media-card .info{padding:10px 14px}
+  .media-card .info h4{font-size:13px;font-weight:500;color:#c8c8d0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .media-card .info span{font-size:11px;color:rgba(255,255,255,.25)}
+
+  .nav{
+    position:sticky;top:0;z-index:100;
+    display:flex;gap:6px;padding:10px 16px;
+    background:rgba(8,8,14,.8);backdrop-filter:blur(24px);
+    border-bottom:1px solid rgba(255,255,255,.04);overflow-x:auto;
+    -webkit-overflow-scrolling:touch
+  }
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{
+    flex-shrink:0;padding:7px 20px;border-radius:20px;
+    text-decoration:none;font-size:13px;font-weight:500;
+    color:rgba(255,255,255,.4);
+    border:1px solid transparent;
+    transition:all .3s
+  }
+  .nav a:hover{color:#fff;background:rgba(255,255,255,.05)}
+  .nav a.active{
+    color:#fff;
+    background:linear-gradient(135deg,rgba(100,40,200,.25),rgba(0,80,200,.15));
+    border-color:rgba(100,40,200,.2)
+  }
+
+  .content{position:relative;z-index:10;max-width:840px;margin:0 auto;padding:20px 16px 60px}
+  .section{display:none;animation:secIn .35s ease}
+  .section.active{display:block}
+  @keyframes secIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+  .article{
+    display:flex;gap:14px;
+    background:rgba(255,255,255,.02);
+    border:1px solid rgba(255,255,255,.05);
+    border-radius:14px;padding:16px 18px;
+    margin-bottom:12px;
+    transition:all .3s cubic-bezier(.4,0,.2,1);
+    animation:cardUp .45s ease both;
+    position:relative;overflow:hidden;
+    cursor:default
+  }
+  .article::before{
+    content:'';position:absolute;top:0;left:0;width:3px;height:100%;
+    background:linear-gradient(180deg,rgba(100,40,200,.5),rgba(60,100,220,.2));
+    border-radius:0 2px 2px 0;
+    opacity:0;transition:opacity .3s
+  }
+  .article:hover::before{opacity:1}
+  .article:hover{
+    transform:translateY(-2px);
+    border-color:rgba(100,40,200,.2);
+    box-shadow:0 6px 30px rgba(0,0,0,.3);
+    background:rgba(255,255,255,.04)
+  }
+  @keyframes cardUp{from{opacity:0;transform:translateY(16px);filter:blur(2px)}to{opacity:1;transform:none;filter:blur(0)}}
+
+  .article .idx{
+    flex-shrink:0;width:28px;text-align:right;
+    font-size:13px;font-weight:600;
+    color:rgba(255,255,255,.15);
+    font-variant-numeric:tabular-nums
+  }
+  .article .body{flex:1;min-width:0}
+  .article h3{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .article h3 a{color:#d8d8e0;text-decoration:none;transition:color .2s}
+  .article h3 a:hover{color:#a78bfa}
+  .article .meta{
+    font-size:12px;color:rgba(255,255,255,.3);
+    display:flex;gap:10px;align-items:center;flex-wrap:wrap
+  }
+  .article .meta .source{
+    background:rgba(100,40,200,.12);padding:1px 10px;border-radius:5px;
+    font-size:11px;color:#a78bfa;border:1px solid rgba(100,40,200,.1)
+  }
+  .article .summary{
+    font-size:13px;color:rgba(255,255,255,.35);
+    margin-top:8px;line-height:1.55;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden
+  }
+
+  .footer{
+    position:relative;z-index:10;
+    text-align:center;padding:24px;
+    color:rgba(255,255,255,.15);font-size:12px;
+    border-top:1px solid rgba(255,255,255,.03)
+  }
+
+  .loading{text-align:center;padding:80px}
+  .loading .orb{width:36px;height:36px;border:2px solid rgba(255,255,255,.05);border-top-color:#a78bfa;border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 14px}
+  @keyframes spin{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
+<div id="stars"></div>
+
 <div class="header">
-  <h1>全球快视 · Qtrends Clone</h1>
-  <p>全球主流媒体热点速览，小时级自动更新</p>
-  <div class="updated" id="updateTime"></div>
+  <h1>全球快视</h1>
+  <div class="sub">全球主流媒体热点速览 - 小时级自动更新</div>
+  <div class="updated" id="uptime"></div>
+</div>
+
+<div class="media-bar" id="mediaBar">
+  <div class="media-track" id="mediaTrack">
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#1a0540,#0a1628)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>全球热点 - CNN BBC</h4><span>国际新闻速递</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#052040,#0a1420)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>财经市场 - Bloomberg</h4><span>全球市场动态</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#1a0540,#20100a)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>科技前沿 - TechCrunch</h4><span>AI与创新</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#052020,#0a1410)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>国际时事 - Al Jazeera</h4><span>全球时事解读</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#201005,#14200a)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>体育赛事 - ESPN</h4><span>赛事热点追踪</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#1a0540,#0a1628)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>全球热点 - CNN BBC</h4><span>国际新闻速递</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#052040,#0a1420)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>财经市场 - Bloomberg</h4><span>全球市场动态</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#1a0540,#20100a)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>科技前沿 - TechCrunch</h4><span>AI与创新</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#052020,#0a1410)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>国际时事 - Al Jazeera</h4><span>全球时事解读</span></div></div>
+    <div class="media-card"><div class="preview" style="background:linear-gradient(135deg,#201005,#14200a)"><div class="play-btn">&#9654;</div></div><div class="info"><h4>体育赛事 - ESPN</h4><span>赛事热点追踪</span></div></div>
+  </div>
 </div>
 
 <div class="nav" id="nav"></div>
-<div class="content" id="content">
-  <div class="loading">
-    <div class="spinner"></div>
-    <div>加载中...</div>
-  </div>
-</div>
-<div class="footer">数据源自 NPR / China Daily / CGTN · 每小时自动更新</div>
+<div class="content" id="content"><div class="loading"><div class="orb"></div><div>加载中...</div></div></div>
+<div class="footer">数据源自 NPR - China Daily - CGTN - 每小时自动更新</div>
 
 <script>
-async function load() {
-  try {
-    const resp = await fetch('data/news.json?_=' + Date.now());
-    const data = await resp.json();
-    
-    document.getElementById('updateTime').textContent = '更新于 ' + (data.updated || '');
-    
-    const categories = data.categories || {};
-    const nav = document.getElementById('nav');
-    const content = document.getElementById('content');
-    
-    let first = true;
-    for (const [cat, items] of Object.entries(categories)) {
-      if (items.length === 0) continue;
-      
-      // Nav tab
-      const a = document.createElement('a');
-      a.href = '#' + cat;
-      a.textContent = cat + ' (' + items.length + ')';
-      a.onclick = (e) => { e.preventDefault(); switchTab(cat); };
-      if (first) a.classList.add('active');
+(function(){
+  const s=document.getElementById('stars');
+  for(let i=0;i<60;i++){
+    const d=document.createElement('div');d.className='star';
+    d.style.cssText='left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;width:'+(1+Math.random()*2)+'px;height:'+(1+Math.random()*2)+'px;--d:'+(2+Math.random()*4)+'s;animation-delay:'+Math.random()*4+'s';
+    s.appendChild(d);
+  }
+})();
+
+async function load(){
+  try{
+    const r=await fetch('data/news.json?_='+Date.now());
+    const d=await r.json();
+    document.getElementById('uptime').textContent='更新于 '+d.updated;
+    const cats=d.categories||{};
+    const nav=document.getElementById('nav');
+    const ct=document.getElementById('content');
+    let first=true;
+
+    for(const[cat,items]of Object.entries(cats)){
+      if(!items.length) continue;
+      const a=document.createElement('a');
+      a.href='#'+cat;a.textContent=cat+' ('+items.length+')';
+      if(first) a.classList.add('active');
+      a.onclick=function(e){e.preventDefault();switchTab(cat)};
       nav.appendChild(a);
-      
-      // Section
-      const sec = document.createElement('div');
-      sec.className = 'section' + (first ? ' active' : '');
-      sec.id = 'sec-' + cat;
-      
-      items.slice(0, 30).forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'article';
-        div.innerHTML = `
-          <h3><a href="${item.url || '#'}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a></h3>
-          <div class="meta">
-            <span class="source">${escapeHtml(item.source || '')}</span>
-            <span>${escapeHtml(item.time || '')}</span>
-          </div>
-          ${item.summary ? `<div class="summary">${escapeHtml(item.summary)}</div>` : ''}
-        `;
+
+      const sec=document.createElement('div');
+      sec.className='section'+(first?' active':'');
+      sec.id='sec-'+cat;
+
+      items.slice(0,30).forEach(function(item,i){
+        const div=document.createElement('div');div.className='article';
+        div.style.animationDelay=(i*0.04)+'s';
+        div.innerHTML='<div class="idx">'+(i+1)+'</div><div class="body">'+
+          '<h3><a href="'+(item.url||'#')+'" target="_blank" rel="noopener">'+esc(item.title)+'</a></h3>'+
+          '<div class="meta"><span class="source">'+esc(item.source||'')+'</span><span>'+esc((item.time||'').slice(0,16))+'</span></div>'+
+          (item.summary?'<div class="summary">'+esc(item.summary)+'</div>':'')+
+          '</div>';
         sec.appendChild(div);
       });
-      
-      content.appendChild(sec);
-      first = false;
+      ct.appendChild(sec);
+      first=false;
     }
-    
-    // Remove loading
-    document.querySelector('.loading')?.remove();
-    
-  } catch(e) {
-    document.querySelector('.content').innerHTML = '<div style="text-align:center;padding:60px;color:#86868b;">加载失败: ' + e.message + '</div>';
+    var ld=document.querySelector('.loading');
+    if(ld)ld.remove();
+  }catch(e){
+    document.getElementById('content').innerHTML='<div style="text-align:center;padding:60px;color:rgba(255,255,255,.2)">加载失败: '+e.message+'</div>';
   }
 }
-
-function switchTab(name) {
-  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-  document.querySelectorAll('.nav a').forEach(a => a.classList.remove('active'));
-  document.getElementById('sec-' + name)?.classList.add('active');
-  document.querySelector(`.nav a[href="#${name}"]`)?.classList.add('active');
+function switchTab(n){
+  var secs=document.querySelectorAll('.section');
+  for(var i=0;i<secs.length;i++)secs[i].classList.remove('active');
+  var nas=document.querySelectorAll('.nav a');
+  for(var i=0;i<nas.length;i++)nas[i].classList.remove('active');
+  var sec=document.getElementById('sec-'+n);
+  if(sec)sec.classList.add('active');
+  var na=document.querySelector('.nav a[href="#'+n+'"]');
+  if(na)na.classList.add('active');
 }
-
-function escapeHtml(text) {
-  const d = document.createElement('div');
-  d.textContent = text;
-  return d.innerHTML;
-}
-
+function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
 load();
 </script>
 </body>

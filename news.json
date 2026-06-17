@@ -1,118 +1,13 @@
 {
-  "updated": "2026-06-17T17:02:50+08:00",
+  "updated": "2026-06-17T18:02:48+08:00",
   "categories": {
     "热点": [
-      {
-        "title": "U.S. strike on an alleged drug boat kills 1, leaves 2 survivors",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/17/nx-s1-5861424/u-s-strike-drug-boat-survivors",
-        "time": "Wed, 17 Jun 2026 01:47:11",
-        "summary": "The U.S. military attacked a boat accused of smuggling drugs in the eastern Pacific Ocean on Tuesday, killing one man and leaving two survivors. This brings the number of people who have been killed in boat strikes to at least 208."
-      },
-      {
-        "title": "Georgia results: Collins will face Sen. Ossoff; Trump's pick loses governor runoff",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/nx-s1-5860795/georgia-election-senate-governor-results-trump",
-        "time": "Tue, 16 Jun 2026 20:38:01",
-        "summary": "In an upset, Georgia Republican voters rejected President Trump's preferred nominee for the competitive open governor's race. They also picked Rep. Mike Collins to face Sen. Jon Ossoff."
-      },
-      {
-        "title": "Iraqi soccer fans celebrate end of 40-year World Cup drought",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/nx-s1-5855456/world-cup-soccer-iraq-fans-dearborn-michigan",
-        "time": "Tue, 16 Jun 2026 16:21:51",
-        "summary": "The Iraq national men's team hasn't played a World Cup in 40 years; a drought that ends Tuesday night, to the excitement of soccer fans in Dearborn, Michigan, home to a large Iraqi diaspora."
-      },
-      {
-        "title": "Trump further guts Education Dept. by shifting oversight of special ed, civil rights",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/nx-s1-5717030/special-ed-civil-rights-education-department",
-        "time": "Tue, 16 Jun 2026 13:04:13",
-        "summary": "The moves to the federal departments of Health and Human Services and Justice, respectively, would further dismantle an agency that President Donald Trump has vowed to close."
-      },
-      {
-        "title": "'The Lost Founder' profiles a brilliant lawyer who helped craft the Constitution",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/nx-s1-5859433/the-lost-founder-profiles-a-brilliant-lawyer-who-helped-craft-the-constitution",
-        "time": "Tue, 16 Jun 2026 12:54:21",
-        "summary": "Jesse Wegman's book tells the story of James Wilson, a largely forgotten founding father who lived a colorful life and died as a Supreme Court justice on the run from the law and creditors."
-      },
-      {
-        "title": "Satellite lofted for first Arab country",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
-        "time": "",
-        "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria."
-      },
-      {
-        "title": "WWII memorials solemn reminders of war tragedy",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
-        "time": "",
-        "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive."
-      },
-      {
-        "title": "Nanjing massacre remembered on 80th anniversary",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2ed569a3108bc8c6721912.html\n\n",
-        "time": "",
-        "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed by the Japanese military during World War II brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco."
-      },
-      {
-        "title": "Young Chinese-Irish ballroom dancer goes international",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2eca0fa3108bc8c672190e.html\n\n",
-        "time": "",
-        "summary": "Kerry Sui, a 10-year-old Chinese-Irish dancer, and her dance partner Francis Carty are set to compete in Italy and perform on Chinese TV after winning the British juvenile ballroom championship."
-      },
-      {
-        "title": "Four injured in New York City blast, suspect nabbed",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e884fa3103f77d55ac367.html\n\n",
-        "time": "",
-        "summary": "Several people were hurt in an explosion in the New York City subway near the Times Square area of Manhattan in early Monday morning."
-      },
-      {
-        "title": "Universities champion new ideas",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e5a8aa31095b331af46bc.html\n\n",
-        "time": "",
-        "summary": "Tsinghua University and Imperial College London have launched a joint fund to support bold scientific ideas in their early stages."
-      },
-      {
-        "title": "Welsh national side helping with Chinese soccer goals",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e57a1a31095b331af444e.html\n\n",
-        "time": "",
-        "summary": "Fans of the Welsh national soccer team have experienced some dizzying highs and disappointing lows in the last 18 months."
-      },
-      {
-        "title": "South San Francisco elects first Chinese-American mayor",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e2643a310eefe3e9a28fd.html\n\n",
-        "time": "",
-        "summary": "Liza Lau Normandy has been elected mayor of South San Francisco, the first Chinese-American to be elected in the city's 110 years history, according to World Journal."
-      },
       {
         "title": "Algerian boy, 12, wins Shenzhen talent contest",
         "source": "China Daily",
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e1cd9a310eefe3e9a28ac.html\n\n",
         "time": "",
         "summary": "A 12-year-old Algerian boy was crowned winner of the eighth Shenzhen Expats Chinese Talent Competition on Sunday."
-      },
-      {
-        "title": "China launches communication satellite for Algeria",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dee96a310eefe3e9a163a.html\n\n",
-        "time": "",
-        "summary": "China launched Algeria's first communication satellite, Alcomsat-1, into a preset orbit from the Xichang Satellite Launch Center in the southwestern province of Sichuan early Monday."
-      },
-      {
-        "title": "Nanjing massacre remembered",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dec6fa310eefe3e9a161b.html\n\n",
-        "time": "",
-        "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed by the Japanese military during World War II brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco."
       },
       {
         "title": "Autopsy: Jiang suffered several injuries before the fatal stab",
@@ -122,39 +17,11 @@
         "summary": "The trial of the alleged murderer of Chinese student Jiang Ge began at 10 am on Monday in Tokyo. It will last seven days and the verdict is expected on Dec 20."
       },
       {
-        "title": "France's Macron to host global climate meet",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2de2c1a310eefe3e9a15e2.html\n\n",
-        "time": "",
-        "summary": "About fifty global leaders are expected to attend the One Planet Summit on Tuesday in Paris hosted by French President Emmanuel Macron to decide what steps to take after the US government left the Paris Climate Change Agreement."
-      },
-      {
-        "title": "UN political chief visits Pyongyang",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2de0ada310eefe3e9a15cd.html\n\n",
-        "time": "",
-        "summary": "The UN's political chief on Saturday stressed the urgency of reducing tensions on the Korean Peninsula after finishing his four-day visit to the Democratic People's Republic of Korea."
-      },
-      {
-        "title": "Ministers condemn US Jerusalem move",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2ddee4a310eefe3e9a15b3.html\n\n",
-        "time": "",
-        "summary": "Arab foreign ministers on Sunday demanded that the United States rescind President Donald Trump's decision to recognize Jerusalem as Israel's capital."
-      },
-      {
         "title": "The world in photos: Dec 4 - Dec 10",
         "source": "China Daily",
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dc981a310eefe3e9a14ad.html\n\n",
         "time": "",
         "summary": "Here, we present some of the most striking images from around the world this past week."
-      },
-      {
-        "title": "China ceases to be dumping ground for foreign waste",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dc336a310eefe3e9a1484.html\n\n",
-        "time": "",
-        "summary": "A National Public Radio story on Saturday described the impact on Portland, Oregon, after China’s recent ban on the import of foreign waste."
       },
       {
         "title": "Malaysians choose 'Road' as Chinese character of the year",
@@ -169,13 +36,6 @@
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2d3187a310eefe3e9a143a.html\n\n",
         "time": "",
         "summary": ""
-      },
-      {
-        "title": "'Right steps' point to a healthier China",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2d2e5ba310eefe3e9a1436.html\n\n",
-        "time": "",
-        "summary": "China's emphasis on innovation in recent years has led to more opportunities for global clinical development and research programs to be conducted in the country, something that has benefited its people, says a leading executive at a top German pharmaceutical company."
       },
       {
         "title": "Toronto marks 80th anniversary of Nanjing Massacre",
@@ -199,32 +59,11 @@
         "summary": "The first snowfall of the season arrived in New York on Saturday morning, and is expected to continue until early Sunday morning."
       },
       {
-        "title": "Udhauli festival marking migration of animals and birds celebrated in Nepal",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2c86b0a310eefe3e9a137f.html\n\n",
-        "time": "",
-        "summary": "Udhauli is the annual festival celebrated by Kirat community of eastern Nepal marking the migration of animals and birds to low altitude towards warmer regions as the winter coming."
-      },
-      {
-        "title": "In pics: Archaeological discovery in heritage-rich Luxor of Egypt",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2c84e4a310eefe3e9a1376.html\n\n",
-        "time": "",
-        "summary": "Egyptian Minister of Antiquities Khalid El-Anany announced Saturday the discovery of a new tomb and the re-discovery of an older one in the heritage-rich Luxor province in Upper Egypt."
-      },
-      {
         "title": "Chinese government releases white paper on global governance",
         "source": "CGTN",
         "url": "https://news.cgtn.com/news/2026-06-17/Chinese-government-releases-white-paper-on-global-governance-1O2EJqQzjEs/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
         "time": "Wed, 17 Jun 2026 02:00:14",
         "summary": "Chinese government releases white paper on global governance"
-      },
-      {
-        "title": "Chinese, Mongolian foreign ministers issue joint press communique",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-15/Chinese-Mongolian-foreign-ministers-issue-joint-press-communique-1NZdgW95Uek/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Mon, 15 Jun 2026 03:49:33",
-        "summary": "A joint press communique was issued on Sunday following talks between Mongolian Foreign Minister Batmunkh Battsetseg and visiting Chinese Foreign Minister Wang Yi, who is also a member of the Political Bureau of the Communist Party of China Central Committee, highlighting the synergy of development "
       },
       {
         "title": "California Gov. says DOJ is targeting him and his wife",
@@ -234,76 +73,6 @@
         "summary": "California Gov. says DOJ is targeting him and his wife"
       },
       {
-        "title": "UN envoy calls for revival of Yemeni political process",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-17/UN-envoy-calls-for-revival-of-Yemeni-political-process-1O2EdzwRW7K/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Wed, 17 Jun 2026 02:19:26",
-        "summary": "UN Special Envoy for Yemen Hans Grundberg on Tuesday urged relevant parties of the Yemeni conflict to seize the opportunity created by regional de-escalation following the Iran-US deal and revive the stalled political process."
-      },
-      {
-        "title": "Anti-G7 protests held in Switzerland, Canada ahead of summit",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-15/Anti-G7-protests-held-in-Switzerland-Canada-ahead-of-summit-1NZfMLfMi6Q/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Mon, 15 Jun 2026 00:43:14",
-        "summary": "Geneva police on Sunday fired teargas at protesters who set fire to a vehicle and smashed windows at a United Nations agency as they vented their anger at a Group of Seven summit about to take place across the border in France."
-      },
-      {
-        "title": "Brazil's science minister  on cooperation with China",
-        "source": "CGTN",
-        "url": "https://newsus.cgtn.com/news/2026-06-17/Brazil-s-science-minister-on-cooperation-with-China-1O2lGGMLeMw/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 20:52:49",
-        "summary": "Brazil's science minister  on cooperation with China"
-      },
-      {
-        "title": "NY/NJ ready to host World Cup fan experience",
-        "source": "CGTN",
-        "url": "https://newsus.cgtn.com/news/2026-06-17/NY-NJ-ready-to-host-World-Cup-fan-experience--1O25V0D5ew0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 17:12:36",
-        "summary": "NY/NJ ready to host World Cup fan experience"
-      },
-      {
-        "title": "Hungarian startup promises cheaper, longer-range EV batteries",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Hungarian-startup-promises-cheaper-longer-range-EV-batteries-1O1TSjDC0BG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 14:48:47",
-        "summary": "A Hungarian company says its battery innovation could eliminate the range anxiety among drivers of electric vehicles (EVs) – and it might cut costs even more."
-      },
-      {
-        "title": "How is climate tech preparing for El Nino's return?",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/How-is-climate-tech-preparing-for-El-Nino-s-return--1O1CvelQi9q/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 14:28:42",
-        "summary": "How is climate tech preparing for El Nino's return?"
-      },
-      {
-        "title": "World Cup 2026: Brazil and Morocco settle for 1-1 in Group C",
-        "source": "CGTN",
-        "url": "https://newsaf.cgtn.com/news/2026-06-15/World-Cup-2026-Brazil-and-Morocco-settle-for-1-1-in-Group-C-1NYaENoqVFu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Sun, 14 Jun 2026 16:04:49",
-        "summary": "A moment of pure individual brilliance from Vinicius Jr. spared Carlo Ancelotti' s Brazil from an opening-day defeat, as a vibrant Morocco side held the five-time world champions to a thrilling 1-1 draw in their Group C opener on Saturday."
-      },
-      {
-        "title": "Iran has not decided on proposed MoU with US",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-14/Iran-has-not-decided-on-proposed-MoU-with-US-1NYp4dIodZC/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Sun, 14 Jun 2026 12:34:53",
-        "summary": "Iran has not yet made and announced its final decision on a proposed memorandum of understanding (MoU) with the United States and is still reviewing it, Iran's semi-official Fars news agency reported on Sunday."
-      },
-      {
-        "title": "Japan's remilitarization turning it into Asia-Pacific 'powder keg'",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Japan-s-remilitarization-turning-it-into-Asia-Pacific-powder-keg--1O1sBPDhXLG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 09:07:57",
-        "summary": "China's Ministry of National Defense on Tuesday criticized Japan's latest defense policy moves, saying Japan's accelerating remilitarization is turning the country into a \"powder keg.\""
-      },
-      {
-        "title": "4 killed in Israeli strikes in Lebanon despite US-Iran peace deal",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-17/4-killed-in-Israeli-strikes-in-Lebanon-despite-US-Iran-peace-deal-1O2FCU33Fv2/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Wed, 17 Jun 2026 02:54:56",
-        "summary": "Four people were killed and several others wounded in Israeli drone strikes targeting Mayfadoun in southern Lebanon on Tuesday afternoon, according to a preliminary toll reported by Lebanon's state-run National News Agency (NNA)."
-      },
-      {
         "title": "M6.7 quake jolts Sulawesi island, Indonesia, CENC says",
         "source": "CGTN",
         "url": "https://news.cgtn.com/news/2026-06-16/news-1O19znUjmM0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
@@ -311,50 +80,63 @@
         "summary": "M6.7 quake jolts Sulawesi island, Indonesia, CENC says"
       },
       {
-        "title": "US, Iran reach peace deal to end war on all fronts",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-15/news-1NZctkKoJmo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Sun, 14 Jun 2026 23:20:27",
-        "summary": "The US and Iran reached a peace deal on Monday and will officially sign a memorandum of understanding (MoU) on Friday."
-      },
-      {
-        "title": "Chinese foreign minister holds phone talks with Pakistani counterpart",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Chinese-foreign-minister-holds-phone-talks-with-Pakistani-counterpart-1O1SRbmzuus/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 14:43:19",
-        "summary": "Chinese Foreign Minister Wang Yi held a phone conversation with Pakistani Deputy Prime Minister and Foreign Minister Mohammad Ishaq Dar on Tuesday evening."
-      },
-      {
-        "title": "Wang Yi meets UN secretary-general candidate Rebeca Grynspan",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Wang-Yi-meets-UN-secretary-general-candidate-Rebeca-Grynspan-1O1yvwR0pEs/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 10:43:36",
-        "summary": "Chinese Foreign Minister Wang Yi on Tuesday met with Rebeca Grynspan, candidate for the next UN secretary-general, in Beijing."
-      },
-      {
-        "title": "China's top political advisor meets Nepali foreign minister",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/China-s-top-political-advisor-meets-Nepali-foreign-minister-1O1uPbXILvi/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 09:25:55",
-        "summary": "China's top political advisor Wang Huning met with Nepali Foreign Minister Shisir Khanal in Beijing on Tuesday."
-      },
-      {
         "title": "Father-daughter duo practice Wing Chun on dragon boat",
         "source": "CGTN",
         "url": "https://newsus.cgtn.com/news/2026-06-17/Father-daughter-duo-practice-Wing-Chun-on-dragon-boat-1O2fhox0AYo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
         "time": "Tue, 16 Jun 2026 19:26:56",
         "summary": "Father-daughter duo practice Wing Chun on dragon boat"
-      },
-      {
-        "title": "BRI, Lancang-Mekong cooperation deepen China-Myanmar ties",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-14/BRI-Lancang-Mekong-cooperation-deepen-China-Myanmar-ties-1NYboUFzKhO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Sun, 14 Jun 2026 10:09:23",
-        "summary": "Rooted in centuries of friendly exchanges and characterized by mutual trust and shared development, the friendship between China and Myanmar has stood the test of time. As the two countries deepen partnership across a wide range of fields, the enduring bond is set to open a new chapter in building a"
       }
     ],
-    "财经": [],
-    "科技": [
+    "国际": [
+      {
+        "title": "With Iran deal, Trump told ships to 'start your engines.' That's not happening yet",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5860909/iran-ships-strait-of-hormuz-trump",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "Iran's control of the Strait of Hormuz inflicted global pain during the months-long conflict with the U.S. and Israel. A tentative deal is in place, but questions remain about the key waterway."
+      },
+      {
+        "title": "'Coreano Hermano': Ahead of Mexico vs. South Korea, it's all love between the fans",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5835229/mexico-south-korea-world-cup-fans-coreano-hermano",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "It's an unusual sight before a World Cup match: Supporters of opposing teams partying together, calling each other \"brother,\"  some even hoping for a draw. But fans say they're far from rivals."
+      },
+      {
+        "title": "On a flight home, a stranger helped her understand what came next",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5857760/on-a-flight-home-a-stranger-helped-her-understand-what-came-next",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "Rebecca Simonitsch had just learned she might be a candidate for brain surgery. The man seated beside her on the flight home pulled out a notebook to explain what lay ahead."
+      },
+      {
+        "title": "El Niño is here, so what does it mean?",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/g-s1-128448/el-nino-begins-global-impacts",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "An El Niño has formed amid the warmer-than-normal waters in the tropical Pacific. Now it's a question of how intense the phenomenon will be, and where effects like heat and drought will strike."
+      },
+      {
+        "title": "FAQ: How World Cup fans and workers can stay safe in the heat",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5742525/world-cup-heat-exhaustion-hot-weather-soccer",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "More than 1 in 3 World Cup matches face dangerously hot, humid weather. Here's how to protect yourself from heat illness."
+      },
+      {
+        "title": "Trump's Iran agreement dominates G7 but big questions remain",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5860782/trumps-iran-agreement-dominates-g7-but-big-questions-remain",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "The U.S.-Israel-led war in Iran has rocked the global economy and decimated Trump's standing at home"
+      },
+      {
+        "title": "3 things to know about the new Fed chief's first meeting",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5860084/fed-chief-warsh-first-fomc-meeting",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "Kevin Warsh takes questions from reporters for the first time since taking over as Chairman of the Federal Reserve.  Warsh and his colleagues are expected to hold interest rates steady today."
+      },
       {
         "title": "Morning news brief",
         "source": "NPR",
@@ -363,32 +145,18 @@
         "summary": "As JD Vance heads to Switzerland to sign initial agreement between U.S. and Iran, the terms remain largely unknown, Trump wraps G7 summit, a look at the results from Tuesday's primaries."
       },
       {
-        "title": "UN chief visits Haiti, where a new 'gang-suppression force' will be deployed",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/17/g-s1-128536/un-chief-visits-haiti",
-        "time": "Wed, 17 Jun 2026 02:15:36",
-        "summary": "U.N. Secretary-General António Guterres's visit to Port-au-Prince comes as gang violence persists. According to U.N. data, 2,300 people have been killed in Haiti this year, with another 100 kidnapped."
+        "title": "Satellite lofted for first Arab country",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html\n\n",
+        "time": "",
+        "summary": "A Chinese-made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria."
       },
       {
-        "title": "Rain along Gulf Coast could become the first named storm of Atlantic hurricane season",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/nx-s1-5860962/rain-along-gulf-coast-could-become-the-first-named-storm-of-atlantic-hurricane-season",
-        "time": "Tue, 16 Jun 2026 22:04:27",
-        "summary": "The National Hurricane Center in Miami says the system is expected to bring intense rain to southern states including Texas and Louisiana this week."
-      },
-      {
-        "title": "Haitian immigrants ask Supreme Court to toss case in light of new evidence",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/nx-s1-5860947/supreme-court-haiti-tps-immigrants",
-        "time": "Tue, 16 Jun 2026 21:09:27",
-        "summary": "The lawyers argue that the court does not have a full record of how the Trump administration decided to end temporary protective status for Haitians in the U.S."
-      },
-      {
-        "title": "In Albania, anger grows against the government for supporting a Kushner-linked luxury resort",
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/06/16/g-s1-128162/albania-resort-protests-kushner-trump",
-        "time": "Tue, 16 Jun 2026 13:10:17",
-        "summary": "Albania's government has given preliminary approval to plans for the luxury resort along a stretch of coastline, prompting daily protests and legal challenges by environmental groups."
+        "title": "WWII memorials solemn reminders of war tragedy",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f1143a3108bc8c6721944.html\n\n",
+        "time": "",
+        "summary": "Memorial days were set up by governments of the war’s major belligerents to remember those who died or sacrificed themselves, and to remind people of tragedies caused by war. Here are ways different countries keep the memory of the wartime history alive."
       },
       {
         "title": "Chinese, Russian and Indian ministers meet",
@@ -396,6 +164,13 @@
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2f0d6ca3108bc8c6721934.html\n\n",
         "time": "",
         "summary": "China, Russia and India agreed to maintain regional security and economic architecture in the Asia-Pacific, according to a joint statement issued on Monday after the 15th trilateral meeting of the foreign ministers of the three countries."
+      },
+      {
+        "title": "Nanjing massacre remembered on 80th anniversary",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2ed569a3108bc8c6721912.html\n\n",
+        "time": "",
+        "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed by the Japanese military during World War II brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco."
       },
       {
         "title": "Would-be suicide bomber sets off explosion in NYC",
@@ -426,11 +201,11 @@
         "summary": "Severe frost, rains and icy roads after heavy snowfall have caused major travel disruption across large parts of Britain on Monday."
       },
       {
-        "title": "DaDong duck ready for New York opening",
+        "title": "Four injured in New York City blast, suspect nabbed",
         "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e230fa310eefe3e9a28eb.html\n\n",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e884fa3103f77d55ac367.html\n\n",
         "time": "",
-        "summary": "To acclaimed chef Dong Zhenxiang, it's all about the texture of the duck."
+        "summary": "Several people were hurt in an explosion in the New York City subway near the Times Square area of Manhattan in early Monday morning."
       },
       {
         "title": "Britain, EU could strike trade deal within a year, says Brexit chief",
@@ -438,6 +213,20 @@
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2df983a310eefe3e9a271a.html\n\n",
         "time": "",
         "summary": "Brexit Secretary David Davis said Sunday the odds of Britain exiting the European Union without a deal had dropped dramatically following an agreement both sides reached in Brussels on Friday."
+      },
+      {
+        "title": "China launches communication satellite for Algeria",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dee96a310eefe3e9a163a.html\n\n",
+        "time": "",
+        "summary": "China launched Algeria's first communication satellite, Alcomsat-1, into a preset orbit from the Xichang Satellite Launch Center in the southwestern province of Sichuan early Monday."
+      },
+      {
+        "title": "Nanjing massacre remembered",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dec6fa310eefe3e9a161b.html\n\n",
+        "time": "",
+        "summary": "A memorial service to mark the 80th anniversary of the Nanjing Massacre committed by the Japanese military during World War II brought together hundreds of activists and members of the Chinese and other Asian communities on Sunday in San Francisco."
       },
       {
         "title": "Anti-nuclear weapon campaigner ICAN receives 2017 Nobel Peace Prize",
@@ -454,11 +243,18 @@
         "summary": "California's Governor Jerry Brown said that climate change has pushed weather to the most extreme, and the US western state must better prepare for a constant threat of wildfire which is a \"new normal\"."
       },
       {
-        "title": "Chinese, Algerian presidents hail successful launch of communications satellite",
+        "title": "France's Macron to host global climate meet",
         "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2de28ca310eefe3e9a15d9.html\n\n",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2de2c1a310eefe3e9a15e2.html\n\n",
         "time": "",
-        "summary": "President Xi Jinping and his Algerian counterpart Abdelaziz Bouteflika exchanged congratulatory messages on the successful launch of Alcomsat-1 in southwestern Sichuan province."
+        "summary": "About fifty global leaders are expected to attend the One Planet Summit on Tuesday in Paris hosted by French President Emmanuel Macron to decide what steps to take after the US government left the Paris Climate Change Agreement."
+      },
+      {
+        "title": "Ministers condemn US Jerusalem move",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2ddee4a310eefe3e9a15b3.html\n\n",
+        "time": "",
+        "summary": "Arab foreign ministers on Sunday demanded that the United States rescind President Donald Trump's decision to recognize Jerusalem as Israel's capital."
       },
       {
         "title": "Foreign minister: Diplomacy will focus on shared future",
@@ -468,6 +264,13 @@
         "summary": "China's endeavor to foster a new form of international relations and build a community with a shared future for mankind will be the overarching goals of China's foreign policy in the years ahead, Foreign Minister Wang Yi said."
       },
       {
+        "title": "China ceases to be dumping ground for foreign waste",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dc336a310eefe3e9a1484.html\n\n",
+        "time": "",
+        "summary": "A National Public Radio story on Saturday described the impact on Portland, Oregon, after China’s recent ban on the import of foreign waste."
+      },
+      {
         "title": "US tax overhaul's lure could be deceptive",
         "source": "China Daily",
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2dbfe2a310eefe3e9a1472.html\n\n",
@@ -475,18 +278,18 @@
         "summary": "Chinese scholars said market expectations should remain objective on Washington's approval of a tax overhaul and they expect its benefits targeting special groups in the United States will be limited."
       },
       {
-        "title": "Ferry runs aground in Calais, no injuries reported -media",
-        "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2d3c6ba310eefe3e9a1443.html\n\n",
-        "time": "",
-        "summary": ""
-      },
-      {
         "title": "Air China launches first non-stop flight to Brisbane",
         "source": "China Daily",
         "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2d301ba310eefe3e9a1438.html\n\n",
         "time": "",
         "summary": "The first non-stop flight connecting China with Brisbane, the habitat of the Great Barrier Reef in Australia, will depart from Beijing on Monday early morning, benefiting tourists from both countries. Air China’s CA 795 will leave Beijing at 2:30 am and arrive about 11 hours later in Brisbane, Queen"
+      },
+      {
+        "title": "'Right steps' point to a healthier China",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2d2e5ba310eefe3e9a1436.html\n\n",
+        "time": "",
+        "summary": "China's emphasis on innovation in recent years has led to more opportunities for global clinical development and research programs to be conducted in the country, something that has benefited its people, says a leading executive at a top German pharmaceutical company."
       },
       {
         "title": "Joint military medical exercise of Angola, Serbia and US starts in N. Angola",
@@ -503,11 +306,11 @@
         "summary": "Mexico City mayor, Miguel Angel Mancera, on Saturday refused to abandon his position to lead the presidential campaign of a new coalition of parties ahead of the 2018 elections."
       },
       {
-        "title": "Leaders of Serbia, Bulgaria, Romania and Greece attend joint press conference",
+        "title": "Udhauli festival marking migration of animals and birds celebrated in Nepal",
         "source": "China Daily",
-        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2c8861a310eefe3e9a1390.html\n\n",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2c86b0a310eefe3e9a137f.html\n\n",
         "time": "",
-        "summary": "Leaders of Serbia, Bulgaria, Romania and Greece agreed on Saturday that the whole region needs to be included in the European Union (EU) and that the cooperation on joint projects can bring the region long-awaited prosperity and stability."
+        "summary": "Udhauli is the annual festival celebrated by Kirat community of eastern Nepal marking the migration of animals and birds to low altitude towards warmer regions as the winter coming."
       },
       {
         "title": "Questionnaire on the US-Israel-Iran conflict",
@@ -517,11 +320,11 @@
         "summary": "Please answer the following questions and share your views."
       },
       {
-        "title": "Britain expected to set out social media curbs for children under 16",
+        "title": "Chinese, Mongolian foreign ministers issue joint press communique",
         "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-15/Britain-expected-to-set-out-social-media-curbs-for-children-under-16-1NZlvKq4kzS/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Mon, 15 Jun 2026 02:03:27",
-        "summary": "Britain is expected to set out restrictions on social media for children under 16 on Monday that could include banning popular platforms and features ‌that are deemed too addictive for the well-being of young people online."
+        "url": "https://news.cgtn.com/news/2026-06-15/Chinese-Mongolian-foreign-ministers-issue-joint-press-communique-1NZdgW95Uek/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Mon, 15 Jun 2026 03:49:33",
+        "summary": "A joint press communique was issued on Sunday following talks between Mongolian Foreign Minister Batmunkh Battsetseg and visiting Chinese Foreign Minister Wang Yi, who is also a member of the Political Bureau of the Communist Party of China Central Committee, highlighting the synergy of development "
       },
       {
         "title": "NATO to deploy air defense system in central Türkiye",
@@ -566,11 +369,25 @@
         "summary": "Chinese Foreign Minister Wang Yi, also a member of the Political Bureau of the Communist Party of China Central Committee, said on Saturday that his talks with Mongolian Foreign Minister Batmunkh Battsetseg had yielded a broad consensus on bilateral relations and regional cooperation."
       },
       {
-        "title": "A New AI Agenda: A Global South Perspective",
+        "title": "UN envoy calls for revival of Yemeni political process",
         "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/A-New-AI-Agenda-A-Global-South-Perspective-1NYtHNqBtoA/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 07:45:01",
-        "summary": "A New AI Agenda: A Global South Perspective"
+        "url": "https://news.cgtn.com/news/2026-06-17/UN-envoy-calls-for-revival-of-Yemeni-political-process-1O2EdzwRW7K/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Wed, 17 Jun 2026 02:19:26",
+        "summary": "UN Special Envoy for Yemen Hans Grundberg on Tuesday urged relevant parties of the Yemeni conflict to seize the opportunity created by regional de-escalation following the Iran-US deal and revive the stalled political process."
+      },
+      {
+        "title": "Anti-G7 protests held in Switzerland, Canada ahead of summit",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-15/Anti-G7-protests-held-in-Switzerland-Canada-ahead-of-summit-1NZfMLfMi6Q/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Mon, 15 Jun 2026 00:43:14",
+        "summary": "Geneva police on Sunday fired teargas at protesters who set fire to a vehicle and smashed windows at a United Nations agency as they vented their anger at a Group of Seven summit about to take place across the border in France."
+      },
+      {
+        "title": "Brazil's science minister  on cooperation with China",
+        "source": "CGTN",
+        "url": "https://newsus.cgtn.com/news/2026-06-17/Brazil-s-science-minister-on-cooperation-with-China-1O2lGGMLeMw/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 20:52:49",
+        "summary": "Brazil's science minister  on cooperation with China"
       },
       {
         "title": "Araghchi: New round of Iran-US talks set for Friday",
@@ -580,11 +397,11 @@
         "summary": "Iranian Foreign Minister Abbas Araghchi said on Tuesday that a new round of US-Iran negotiations will begin in Switzerland on Friday."
       },
       {
-        "title": "Chinese naval task force sets sail for far-sea training mission",
+        "title": "World Cup 2026: Brazil and Morocco settle for 1-1 in Group C",
         "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Chinese-naval-task-force-sets-sail-for-far-sea-training-mission-1O01Y4uHN3W/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 08:45:05",
-        "summary": "Chinese naval task force sets sail for far-sea training mission"
+        "url": "https://newsaf.cgtn.com/news/2026-06-15/World-Cup-2026-Brazil-and-Morocco-settle-for-1-1-in-Group-C-1NYaENoqVFu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Sun, 14 Jun 2026 16:04:49",
+        "summary": "A moment of pure individual brilliance from Vinicius Jr. spared Carlo Ancelotti' s Brazil from an opening-day defeat, as a vibrant Morocco side held the five-time world champions to a thrilling 1-1 draw in their Group C opener on Saturday."
       },
       {
         "title": "E4 countries welcome US-Iran peace deal, ready to lift sanctions",
@@ -592,6 +409,20 @@
         "url": "https://news.cgtn.com/news/2026-06-15/E4-countries-welcome-US-Iran-peace-deal-ready-to-lift-sanctions-1NZnVnXhBM4/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
         "time": "Mon, 15 Jun 2026 02:52:45",
         "summary": "The leaders of Britain, France, Germany and Italy welcomed the US-Iran peace deal announced on Sunday in a joint statement."
+      },
+      {
+        "title": "Iran has not decided on proposed MoU with US",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-14/Iran-has-not-decided-on-proposed-MoU-with-US-1NYp4dIodZC/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Sun, 14 Jun 2026 12:34:53",
+        "summary": "Iran has not yet made and announced its final decision on a proposed memorandum of understanding (MoU) with the United States and is still reviewing it, Iran's semi-official Fars news agency reported on Sunday."
+      },
+      {
+        "title": "Japan's remilitarization turning it into Asia-Pacific 'powder keg'",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Japan-s-remilitarization-turning-it-into-Asia-Pacific-powder-keg--1O1sBPDhXLG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 09:07:57",
+        "summary": "China's Ministry of National Defense on Tuesday criticized Japan's latest defense policy moves, saying Japan's accelerating remilitarization is turning the country into a \"powder keg.\""
       },
       {
         "title": "Nigeria killed 13,000 terrorists in 2025: President Tinubu claims",
@@ -606,6 +437,13 @@
         "url": "https://newsaf.cgtn.com/news/2026-06-16/Water-crisis-fuels-fears-over-growing-Ebola-outbreak-in-DR-Congo-1O050lxUxby/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
         "time": "Tue, 16 Jun 2026 13:05:51",
         "summary": "The true scale of the Ebola outbreak in the Democratic Republic of the Congo may be significantly higher than official figures suggest, aid agency Oxfam has warned, citing severe shortages of clean water, sanitation facilities, and disease surveillance in affected communities."
+      },
+      {
+        "title": "4 killed in Israeli strikes in Lebanon despite US-Iran peace deal",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-17/4-killed-in-Israeli-strikes-in-Lebanon-despite-US-Iran-peace-deal-1O2FCU33Fv2/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Wed, 17 Jun 2026 02:54:56",
+        "summary": "Four people were killed and several others wounded in Israeli drone strikes targeting Mayfadoun in southern Lebanon on Tuesday afternoon, according to a preliminary toll reported by Lebanon's state-run National News Agency (NNA)."
       },
       {
         "title": "Iran's team reacts to US visa restrictions and impacts",
@@ -629,39 +467,11 @@
         "summary": "US President Donald Trump said on Tuesday that the United States is going to have the Strait of Hormuz fully opened by Friday."
       },
       {
-        "title": "Myanmar to plant over 21 million trees during 2026 rainy season",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-15/Myanmar-to-plant-over-21-million-trees-during-2026-rainy-season-1NZltbyF488/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Mon, 15 Jun 2026 01:58:04",
-        "summary": "Myanmar to plant over 21 million trees during 2026 rainy season"
-      },
-      {
         "title": "Team Iran members forced to watch match in Mexico after US denies visa",
         "source": "CGTN",
         "url": "https://newsus.cgtn.com/news/2026-06-17/Team-Iran-members-forced-to-watch-match-in-Mexico-after-US-denies-visa-1O2t8Qywnv2/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
         "time": "Tue, 16 Jun 2026 22:58:47",
         "summary": "Members of Iran's World Cup delegation who were denied U.S. visas gathered with Tijuana's Mexican community on Monday to watch the national team's tournament opener against New Zealand."
-      },
-      {
-        "title": "Japan's central bank hikes policy rate to 31-year high of 1.0%",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Japan-s-central-bank-hikes-policy-rate-to-31-year-high-of-1-0--1O1kgZb1ICk/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 06:18:14",
-        "summary": "The Bank of Japan (BOJ) decided Tuesday at its two-day monetary policy meeting to raise its benchmark interest rate to 1.0% from 0.75%, the highest in 31 years."
-      },
-      {
-        "title": "Chinese, Myanmar presidents attend signing of cooperation documents",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-16/Chinese-Myanmar-presidents-attend-signing-of-cooperation-documents-1O1a9joCCLm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Tue, 16 Jun 2026 04:28:10",
-        "summary": "Chinese President Xi Jinping and Myanmar's President Min Aung Hlaing attended a signing ceremony of cooperation documents in Beijing on Tuesday."
-      },
-      {
-        "title": "Can and can't: Lessons from an open-source AI filmmaking event",
-        "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-14/Can-and-can-t-Lessons-from-an-open-source-AI-filmmaking-event-1NYtuYqHIIw/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Sun, 14 Jun 2026 13:49:51",
-        "summary": "Shanghai International Film Festival's new \"AI Backlot\" challenge opened every prompt and workflow to the public. What AI can do in film, what it can't, and why the boundary matters."
       },
       {
         "title": "Global summit in Nairobi to boost Africa's agri-food financing",
@@ -678,11 +488,32 @@
         "summary": "China firmly supports multinational corporations in investing and doing business in China and achieving robust and healthy growth, Chinese Vice President Han Zheng said on Tuesday."
       },
       {
-        "title": "Graphics: SCO at 25, advancing security, development and connectivity",
+        "title": "US, Iran reach peace deal to end war on all fronts",
         "source": "CGTN",
-        "url": "https://news.cgtn.com/news/2026-06-14/Graphics-SCO-at-25-advancing-security-development-and-connectivity-1NXF4yYlZRu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
-        "time": "Sun, 14 Jun 2026 03:18:19",
-        "summary": "June 15, 2026, marks the 25th anniversary of the founding of the Shanghai Cooperation Organization (SCO). The infographic below highlights key figures and milestones in the SCO's development over the past quarter century."
+        "url": "https://news.cgtn.com/news/2026-06-15/news-1NZctkKoJmo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Sun, 14 Jun 2026 23:20:27",
+        "summary": "The US and Iran reached a peace deal on Monday and will officially sign a memorandum of understanding (MoU) on Friday."
+      },
+      {
+        "title": "Chinese foreign minister holds phone talks with Pakistani counterpart",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Chinese-foreign-minister-holds-phone-talks-with-Pakistani-counterpart-1O1SRbmzuus/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 14:43:19",
+        "summary": "Chinese Foreign Minister Wang Yi held a phone conversation with Pakistani Deputy Prime Minister and Foreign Minister Mohammad Ishaq Dar on Tuesday evening."
+      },
+      {
+        "title": "Wang Yi meets UN secretary-general candidate Rebeca Grynspan",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Wang-Yi-meets-UN-secretary-general-candidate-Rebeca-Grynspan-1O1yvwR0pEs/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 10:43:36",
+        "summary": "Chinese Foreign Minister Wang Yi on Tuesday met with Rebeca Grynspan, candidate for the next UN secretary-general, in Beijing."
+      },
+      {
+        "title": "China's top political advisor meets Nepali foreign minister",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/China-s-top-political-advisor-meets-Nepali-foreign-minister-1O1uPbXILvi/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 09:25:55",
+        "summary": "China's top political advisor Wang Huning met with Nepali Foreign Minister Shisir Khanal in Beijing on Tuesday."
       },
       {
         "title": "Chinese premier meets Myanmar's president in Beijing",
@@ -699,6 +530,13 @@
         "summary": "Two people were injured in a shooting on Tuesday afternoon at a hospital in Wilmington, a city in the US state of Delaware, and the suspect remains at large, local police said."
       },
       {
+        "title": "BRI, Lancang-Mekong cooperation deepen China-Myanmar ties",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-14/BRI-Lancang-Mekong-cooperation-deepen-China-Myanmar-ties-1NYboUFzKhO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Sun, 14 Jun 2026 10:09:23",
+        "summary": "Rooted in centuries of friendly exchanges and characterized by mutual trust and shared development, the friendship between China and Myanmar has stood the test of time. As the two countries deepen partnership across a wide range of fields, the enduring bond is set to open a new chapter in building a"
+      },
+      {
         "title": "US and Iran sign ceasefire agreement, details remain unclear",
         "source": "CGTN",
         "url": "https://news.cgtn.com/news/2026-06-16/US-and-Iran-sign-ceasefire-agreement-details-remain-unclear-1O14W6bVhJK/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
@@ -706,7 +544,175 @@
         "summary": "US President Donald Trump said on Monday that the United States and Iran had signed a preliminary agreement to end the war in the Gulf, although details have not yet been made public and both sides said a permanent truce still needs to be negotiated."
       }
     ],
-    "体育": []
+    "政治": [
+      {
+        "title": "South San Francisco elects first Chinese-American mayor",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e2643a310eefe3e9a28fd.html\n\n",
+        "time": "",
+        "summary": "Liza Lau Normandy has been elected mayor of South San Francisco, the first Chinese-American to be elected in the city's 110 years history, according to World Journal."
+      },
+      {
+        "title": "Chinese, Algerian presidents hail successful launch of communications satellite",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2de28ca310eefe3e9a15d9.html\n\n",
+        "time": "",
+        "summary": "President Xi Jinping and his Algerian counterpart Abdelaziz Bouteflika exchanged congratulatory messages on the successful launch of Alcomsat-1 in southwestern Sichuan province."
+      },
+      {
+        "title": "UN political chief visits Pyongyang",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2de0ada310eefe3e9a15cd.html\n\n",
+        "time": "",
+        "summary": "The UN's political chief on Saturday stressed the urgency of reducing tensions on the Korean Peninsula after finishing his four-day visit to the Democratic People's Republic of Korea."
+      },
+      {
+        "title": "In pics: Archaeological discovery in heritage-rich Luxor of Egypt",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2c84e4a310eefe3e9a1376.html\n\n",
+        "time": "",
+        "summary": "Egyptian Minister of Antiquities Khalid El-Anany announced Saturday the discovery of a new tomb and the re-discovery of an older one in the heritage-rich Luxor province in Upper Egypt."
+      },
+      {
+        "title": "Japan's central bank hikes policy rate to 31-year high of 1.0%",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Japan-s-central-bank-hikes-policy-rate-to-31-year-high-of-1-0--1O1kgZb1ICk/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 06:18:14",
+        "summary": "The Bank of Japan (BOJ) decided Tuesday at its two-day monetary policy meeting to raise its benchmark interest rate to 1.0% from 0.75%, the highest in 31 years."
+      },
+      {
+        "title": "Chinese, Myanmar presidents attend signing of cooperation documents",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Chinese-Myanmar-presidents-attend-signing-of-cooperation-documents-1O1a9joCCLm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 04:28:10",
+        "summary": "Chinese President Xi Jinping and Myanmar's President Min Aung Hlaing attended a signing ceremony of cooperation documents in Beijing on Tuesday."
+      }
+    ],
+    "财经": [
+      {
+        "title": "Universities champion new ideas",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e5a8aa31095b331af46bc.html\n\n",
+        "time": "",
+        "summary": "Tsinghua University and Imperial College London have launched a joint fund to support bold scientific ideas in their early stages."
+      },
+      {
+        "title": "Hungarian startup promises cheaper, longer-range EV batteries",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Hungarian-startup-promises-cheaper-longer-range-EV-batteries-1O1TSjDC0BG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 14:48:47",
+        "summary": "A Hungarian company says its battery innovation could eliminate the range anxiety among drivers of electric vehicles (EVs) – and it might cut costs even more."
+      }
+    ],
+    "科技": [
+      {
+        "title": "Soccer's premier goal scorers, led by Lionel Messi, show up to the World Cup with a bang",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/nx-s1-5861412/2026-world-cup-fifa-goals-golden-boot",
+        "time": "Wed, 17 Jun 2026 05:00:00",
+        "summary": "The World Cup might be less than a week old, but the goal scoring at this year's tourney has been sublime. Argentina's Lionel Messi netted three goals the same day France's Kylian Mbappé scored two."
+      },
+      {
+        "title": "UN chief visits Haiti, where a new 'gang-suppression force' will be deployed",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/17/g-s1-128536/un-chief-visits-haiti",
+        "time": "Wed, 17 Jun 2026 02:15:36",
+        "summary": "U.N. Secretary-General António Guterres's visit to Port-au-Prince comes as gang violence persists. According to U.N. data, 2,300 people have been killed in Haiti this year, with another 100 kidnapped."
+      },
+      {
+        "title": "Welsh national side helping with Chinese soccer goals",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e57a1a31095b331af444e.html\n\n",
+        "time": "",
+        "summary": "Fans of the Welsh national soccer team have experienced some dizzying highs and disappointing lows in the last 18 months."
+      },
+      {
+        "title": "DaDong duck ready for New York opening",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/11/WS5a2e230fa310eefe3e9a28eb.html\n\n",
+        "time": "",
+        "summary": "To acclaimed chef Dong Zhenxiang, it's all about the texture of the duck."
+      },
+      {
+        "title": "Ferry runs aground in Calais, no injuries reported -media",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2d3c6ba310eefe3e9a1443.html\n\n",
+        "time": "",
+        "summary": ""
+      },
+      {
+        "title": "Leaders of Serbia, Bulgaria, Romania and Greece attend joint press conference",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/10/WS5a2c8861a310eefe3e9a1390.html\n\n",
+        "time": "",
+        "summary": "Leaders of Serbia, Bulgaria, Romania and Greece agreed on Saturday that the whole region needs to be included in the European Union (EU) and that the cooperation on joint projects can bring the region long-awaited prosperity and stability."
+      },
+      {
+        "title": "Britain expected to set out social media curbs for children under 16",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-15/Britain-expected-to-set-out-social-media-curbs-for-children-under-16-1NZlvKq4kzS/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Mon, 15 Jun 2026 02:03:27",
+        "summary": "Britain is expected to set out restrictions on social media for children under 16 on Monday that could include banning popular platforms and features ‌that are deemed too addictive for the well-being of young people online."
+      },
+      {
+        "title": "A New AI Agenda: A Global South Perspective",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/A-New-AI-Agenda-A-Global-South-Perspective-1NYtHNqBtoA/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 07:45:01",
+        "summary": "A New AI Agenda: A Global South Perspective"
+      },
+      {
+        "title": "How is climate tech preparing for El Nino's return?",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/How-is-climate-tech-preparing-for-El-Nino-s-return--1O1CvelQi9q/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 14:28:42",
+        "summary": "How is climate tech preparing for El Nino's return?"
+      },
+      {
+        "title": "Chinese naval task force sets sail for far-sea training mission",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-16/Chinese-naval-task-force-sets-sail-for-far-sea-training-mission-1O01Y4uHN3W/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 08:45:05",
+        "summary": "Chinese naval task force sets sail for far-sea training mission"
+      },
+      {
+        "title": "Myanmar to plant over 21 million trees during 2026 rainy season",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-15/Myanmar-to-plant-over-21-million-trees-during-2026-rainy-season-1NZltbyF488/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Mon, 15 Jun 2026 01:58:04",
+        "summary": "Myanmar to plant over 21 million trees during 2026 rainy season"
+      },
+      {
+        "title": "Can and can't: Lessons from an open-source AI filmmaking event",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-14/Can-and-can-t-Lessons-from-an-open-source-AI-filmmaking-event-1NYtuYqHIIw/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Sun, 14 Jun 2026 13:49:51",
+        "summary": "Shanghai International Film Festival's new \"AI Backlot\" challenge opened every prompt and workflow to the public. What AI can do in film, what it can't, and why the boundary matters."
+      },
+      {
+        "title": "Graphics: SCO at 25, advancing security, development and connectivity",
+        "source": "CGTN",
+        "url": "https://news.cgtn.com/news/2026-06-14/Graphics-SCO-at-25-advancing-security-development-and-connectivity-1NXF4yYlZRu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Sun, 14 Jun 2026 03:18:19",
+        "summary": "June 15, 2026, marks the 25th anniversary of the founding of the Shanghai Cooperation Organization (SCO). The infographic below highlights key figures and milestones in the SCO's development over the past quarter century."
+      }
+    ],
+    "体育": [
+      {
+        "title": "Young Chinese-Irish ballroom dancer goes international",
+        "source": "China Daily",
+        "url": "\n\nhttp://www.chinadaily.com.cn/a/201712/12/WS5a2eca0fa3108bc8c672190e.html\n\n",
+        "time": "",
+        "summary": "Kerry Sui, a 10-year-old Chinese-Irish dancer, and her dance partner Francis Carty are set to compete in Italy and perform on Chinese TV after winning the British juvenile ballroom championship."
+      },
+      {
+        "title": "NY/NJ ready to host World Cup fan experience",
+        "source": "CGTN",
+        "url": "https://newsus.cgtn.com/news/2026-06-17/NY-NJ-ready-to-host-World-Cup-fan-experience--1O25V0D5ew0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World",
+        "time": "Tue, 16 Jun 2026 17:12:36",
+        "summary": "NY/NJ ready to host World Cup fan experience"
+      }
+    ]
   },
   "total": 100
 }
