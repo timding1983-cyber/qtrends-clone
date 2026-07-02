@@ -1,42 +1,7 @@
 {
-  "updated": "2026-07-02T15:04:48+08:00",
+  "updated": "2026-07-02T15:08:33+08:00",
   "categories": {
     "热点": [
-      {
-        "title": "欧洲央行宣布下调欧元区关键利率",
-        "source": "人民网",
-        "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494895.html",
-        "time": "2025-06-05",
-        "summary": ""
-      },
-      {
-        "title": "美联储“褐皮书”：美国经济不确定性居高位　关税推高物价",
-        "source": "人民网",
-        "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494887.html",
-        "time": "2025-06-05",
-        "summary": ""
-      },
-      {
-        "title": "商务部：中方对合规稀土出口许可申请将予以批准",
-        "source": "人民网",
-        "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494861.html",
-        "time": "2025-06-05",
-        "summary": ""
-      },
-      {
-        "title": "外交部：中国愿继续与各方一道推动共建清洁、美丽、可持续的世界",
-        "source": "人民网",
-        "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494859.html",
-        "time": "2025-06-05",
-        "summary": ""
-      },
-      {
-        "title": "来自神舟二十号的“太空问候”！中国航天员为世博会中国馆送祝福",
-        "source": "人民网",
-        "url": "http://world.people.com.cn/n1/2025/0605/c1002-40494817.html",
-        "time": "2025-06-05",
-        "summary": ""
-      },
       {
         "title": "索尼 PS 从 2028 年 1 月起不再发售新游戏的光盘版",
         "source": "Solidot",
@@ -187,5 +152,5 @@
       }
     ]
   },
-  "total": 25
+  "total": 20
 }
