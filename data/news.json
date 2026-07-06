@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T20:08:57+08:00",
+  "updated": "2026-07-06T20:12:46+08:00",
   "categories": {
     "热点": [
       {
@@ -955,6 +955,13 @@
         "summary": ""
       },
       {
+        "title": "用 Go 语言编写的 TypeScript 7.0 发布 RC 版",
+        "source": "Solidot",
+        "url": "https://www.solidot.org/story?sid=84765",
+        "time": "Mon, 06 Jul 2026 19:24:37",
+        "summary": "C# 和 TypeScript 等语言的创始人 Anders Hejlsberg 在 2025 年 3 月宣布他的团队正在开发用 Go 语言编写的 TypeScript 编译器。现在首个基于 Go 语言的 TypeScript 7.0 发布了 RC 版本。正式版本预计会在下个月发布。微软表示，得益于原生代码速度和共享内存并行处理能力，TypeScript 7.0 的速度通常比 TypeScript 6.0 快约 10 倍。不同于 TypeScript 6.0，TypeScript 7.0 的许多步骤（如解析、类型检查和发射）都可以并行执行。其中一些步骤（如解析和发射）在不同文件之间可以基本独立"
+      },
+      {
         "title": "隼鸟2号近距离飞越小行星鸟船",
         "source": "Solidot",
         "url": "https://www.solidot.org/story?sid=84762",
@@ -1118,5 +1125,5 @@
       }
     ]
   },
-  "total": 158
+  "total": 159
 }
