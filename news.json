@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T14:11:20+08:00",
+  "updated": "2026-07-13T15:04:45+08:00",
   "categories": {
     "热点": [
       {
@@ -985,6 +985,13 @@
     ],
     "国际": [
       {
+        "title": "Windows 11 设备标识符无法关闭",
+        "source": "Solidot",
+        "url": "https://www.solidot.org/story?sid=84810",
+        "time": "Mon, 13 Jul 2026 13:38:26",
+        "summary": "最近的一起案件显示微软能利用唯一设备标识符跟踪用户。该标识符被称为 Global Device Identifier（GDID），它关联用户使用的微软账号（Microsoft Account）。当用户使用微软账号登陆 Windows 时，微软会读取 Device PUID（Passport Unique ID，位于注册表 HKCU\\SOFTWARE\\Microsoft\\IdentityCRL\\ExtendedProperties 下），然后分配一个唯一永久 ID，该 ID 号储存在本地，多个后台服务会读取该 ID 号，并添加到操作系统向微软报告的所有活动中。重新安装 Windows 后，用户会"
+      },
+      {
         "title": "OpenRouter 上近五成美国公司使用中国 AI 模型",
         "source": "Solidot",
         "url": "https://www.solidot.org/story?sid=84799",
@@ -1067,5 +1074,5 @@
       }
     ]
   },
-  "total": 151
+  "total": 152
 }
