@@ -11,19 +11,23 @@ command -v gtimeout >/dev/null 2>&1 && TIMEOUT_CMD="gtimeout 30"
 command -v timeout >/dev/null 2>&1 && TIMEOUT_CMD="timeout 30"
 
 if [ -n "$TIMEOUT_CMD" ]; then
-    $TIMEOUT_CMD git push origin main 2>/dev/null || {
+    $TIMEOUT_CMD git push push-origin main 2>/dev/null || {
         echo "PUSH_FAILED_DIRECT"
         # retry via mirror
         git push https://ghfast.top/https://github.com/sv3nbear/qtrends.git main 2>/dev/null || echo "PUSH_MIRROR_FAILED_TOO"
     }
 else
     # no timeout command, run push and cap with background kill
-    git push origin main &
+    git push push-origin main &
     PUSH_PID=$!
     (sleep 30; kill $PUSH_PID 2>/dev/null) &
     SLEEP_PID=$!
     wait $PUSH_PID 2>/dev/null
     kill $SLEEP_PID 2>/dev/null
-    echo "PUSH_TIMEOUT_OR_FAILED"
+    if wait $PUSH_PID 2>/dev/null; then
+        echo "PUSH_OK"
+    else
+        echo "PUSH_TIMEOUT_OR_FAILED"
+    fi
 fi
 }
